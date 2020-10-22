@@ -80,7 +80,7 @@ export default {
     },
 
     createNextObserver(before) {
-      if (process.isClient) {
+      if (process.isClient && window.innerWidth > 768) {
         if (before) before()
         this.activateHeadlineIfUrlIsHash()
         this.$nextTick(this.initObserver)
