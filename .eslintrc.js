@@ -5,8 +5,8 @@ module.exports = {
     node: true
   },
   extends: [
-    'plugin:vue/recommended',
     'standard',
+    'plugin:vue/recommended',
     'plugin:prettier/recommended',
     'prettier',
     'prettier/standard',
