@@ -23,10 +23,8 @@ module.exports = {
         }
       },
       spacing: {
+        half: '0.125rem',
         sm: '24rem'
-      },
-      screens: {
-        xxl: '1400px'
       }
     },
     container: {
