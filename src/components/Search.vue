@@ -16,7 +16,7 @@
         ref="input"
         type="search"
         :value="query"
-        class="block w-full py-2 pl-10 pr-4 border-2 rounded-lg bg-ui-sidebar border-ui-sidebar focus:bg-ui-background"
+        class="block w-full py-2 pl-10 pr-4 border-2 rounded-md bg-ui-sidebar border-ui-sidebar focus:bg-ui-background"
         placeholder="Search Documentation..."
         @focus="focused = true"
         @blur="focused = false"
@@ -29,8 +29,7 @@
     </label>
     <div
       v-if="showResult"
-      class="fixed inset-x-0 z-50 overflow-y-auto border-2 border-t-0 rounded-lg rounded-t-none shadow-lg results bg-ui-background bottom:0 sm:bottom-auto sm:absolute border-ui-sidebar"
-      style="max-height: calc(100vh - 120px)"
+      class="fixed inset-x-0 bottom-0 z-10 overflow-y-auto border-2 border-t-0 rounded-md rounded-t-none shadow-lg bg-ui-background sm:bottom-auto sm:absolute border-ui-sidebar"
     >
       <ul class="px-4 py-2 m-0">
         <li v-if="results.length === 0" class="px-2">
@@ -51,7 +50,7 @@
         >
           <g-link
             :to="result.path + result.anchor"
-            class="block p-2 -mx-2 text-base font-bold rounded-lg"
+            class="block p-2 -mx-2 text-base font-bold"
             :class="{
               'bg-ui-sidebar text-ui-primary': focusIndex === index
             }"

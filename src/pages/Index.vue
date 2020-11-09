@@ -17,7 +17,7 @@
         </p>
 
         <div class="py-4">
-          <code class="block px-4 py-1 select-all bg-ui-border text-ui-typo"
+          <code class="block px-2 py-1 select-all bg-ui-border text-ui-typo"
             >gridsome create your-project https://github.com/mrcrmn/docc</code
           >
         </div>
@@ -25,7 +25,7 @@
         <div class="flex justify-center mt-8">
           <g-link
             to="/docs/"
-            class="flex items-center px-6 py-4 ml-auto text-2xl font-bold leading-none text-white transition-all duration-200 ease-out transform border rounded-lg shadow-lg bg-ui-primary border-ui-primary hover:shadow-xl hover:-translate-y-1"
+            class="flex items-center px-6 py-4 ml-auto text-2xl font-bold leading-none text-white transition-all duration-200 ease-out transform border rounded-md shadow-lg bg-ui-primary border-ui-primary hover:shadow-xl hover:-translate-y-1"
           >
             Get started
             <ArrowRightCircleIcon class="ml-4" size="1x" />

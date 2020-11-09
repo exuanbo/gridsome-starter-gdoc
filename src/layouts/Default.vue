@@ -14,7 +14,7 @@
       >
         <aside
           v-if="hasSidebar"
-          class="sidebar"
+          class="fixed inset-x-0 bottom-0 z-10 w-full px-4 overflow-y-auto transition -translate-x-full border-r sidebar bg-ui-background border-ui-border"
           :class="{ open: sidebarOpen }"
           :style="sidebarStyle"
         >
@@ -155,9 +155,7 @@ html[lights-out] {
 }
 
 * {
-  transition-property: color, background-color, border-color;
-  transition-duration: 200ms;
-  transition-timing-function: ease-in-out;
+  @apply transition-colors duration-150;
 }
 
 h1,
@@ -275,7 +273,7 @@ blockquote {
 }
 
 code {
-  @apply px-1 py-1 text-ui-typo bg-ui-sidebar font-mono border-b border-r border-ui-border text-sm rounded;
+  @apply px-1 py-half text-ui-typo text-sm bg-ui-sidebar font-mono border-b border-r border-ui-border rounded-md;
 }
 
 pre[class*='language-'] {
@@ -318,16 +316,12 @@ table {
 }
 
 .sidebar {
-  @apply fixed bg-ui-background px-4 inset-x-0 bottom-0 w-full border-r border-ui-border overflow-y-auto transition-all z-40;
-  transform: translateX(-100%);
-
   &.open {
-    transform: translateX(0);
+    @apply translate-x-0;
   }
 
   @screen lg {
-    @apply w-1/4 px-0 bg-transparent top-0 bottom-auto inset-x-auto sticky z-0;
-    transform: translateX(0);
+    @apply w-1/4 px-0 bg-transparent top-0 bottom-auto inset-x-auto sticky z-0 translate-x-0;
   }
 }
 </style>
