@@ -4532,7 +4532,7 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-fuse.js@^6.4.3:
+fuse.js@6.4.3:
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-6.4.3.tgz#aadd6ac34aab5b1d6e6c60462fcb4d1c3f53bb01"
   integrity sha512-JNgngolukIrqwayWnvy6NLH63hmwKPhm63o0uyBg51jPD0j09IvAzlV1rTXfAsgxpghI7khAo6Mv+EmvjDWXig==
@@ -4869,7 +4869,7 @@ gridsome-plugin-tailwindcss@3.0.1:
     postcss-preset-env "^6.7.0"
     tailwindcss ">=1.4"
 
-gridsome@^0.7.22:
+gridsome@0.7.22:
   version "0.7.22"
   resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.22.tgz#bca2a739e048402aff2e3caaa4bf4f8797b35a24"
   integrity sha512-zfJdm0EfPi2ZMGi5pQVKtdWjPG7nRZfvDDo9iH733nMW2f0B1EpGIRQUiQ2CZ9UkXluBeqQSLiA8r6e4yNbffw==
@@ -10662,7 +10662,7 @@ vue-eslint-parser@^7.1.1:
     esquery "^1.0.1"
     lodash "^4.17.15"
 
-vue-feather-icons@^5.1.0:
+vue-feather-icons@5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/vue-feather-icons/-/vue-feather-icons-5.1.0.tgz#db658aca5f4c088c2f725f8b1f2967d4a1e4d398"
   integrity sha512-ZyM2yFGmL9DYLZYHm63KV1zCQOj8czC2LzDSkxoIp9o6zMAOY4yv1FkxbX+XNUwcH3RRrAuvf25Ij7CnUUsQVA==
