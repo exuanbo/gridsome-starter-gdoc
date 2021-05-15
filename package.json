@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "fuse.js": "^6.4.3",
-    "gridsome": "^0.7.22",
+    "gridsome": "0.7.23",
     "vue-feather-icons": "^5.1.0"
   },
   "devDependencies": {
