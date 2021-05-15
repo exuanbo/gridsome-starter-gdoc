@@ -10,7 +10,7 @@
     "exp": "gridsome explore"
   },
   "dependencies": {
-    "fuse.js": "^6.4.3",
+    "fuse.js": "6.4.6",
     "gridsome": "^0.7.22",
     "vue-feather-icons": "^5.1.0"
   },
